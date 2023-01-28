@@ -11,12 +11,183 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--Icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <title>InDecore</title>
 </head>
 <body>
-    <h1>Olá. mundo!</h1>
-    <i class="bi bi-windows"></i>
+    <header id="event-description">
+        <div id="disclaimer">
+            <h2>InDecor</h2>
+            <p class="about-event">
+                Um evento para revolucionar sua criatividade!
+            </p>
+            <p> Data do evento:</p>
+            <p class="event-date">Domingo, 28 de maio a partir das 18h</p>
+        </div>
+
+        <div id="subscription-form">
+            <p>Preencha o formulário para receber detalhes do evento</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input 
+                    type="text" 
+                    name="name" 
+                    placeholder="Digite seu nome"
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input 
+                    type="text"
+                    name="email" 
+                    placeholder="Digite seu e-mail"
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Telefone</label>
+                    <input 
+                    type="text"
+                    name="phone" 
+                    placeholder="Digite seu número de telefone"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="interest">Principal interesse</label>
+                    <select name="interest">
+                    <option value="" disabled selected>selecione</option>
+                    <option value="apartment">apartamentos</option>
+                    <option value="house">casas</option>
+                    <option value="garden">jardins</option>
+                    <option value="other">outros</option>
+
+                    </select>
+                </div>
+
+                <input type="submit"
+                class="btn"
+                value="quero me inscrever">
+                
+
+            </form>
+        </div>
+
+    </header>
+
+    <section id="key-benefits">
+        <h2>O que você vai aprender:</h2>
+
+        <div class="benefits">
+
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img"></div>
+                    <p>
+                    Alguma coisa muito legal que vai fazer a diferença na vida do participante
+                    </p>
+            
+             </div>
+
+             <div class="benefit">
+                <div id="benefit-2" class="benefit-img"></div>
+                    <p>
+                    Alguma coisa muito legal que vai fazer a diferença na vida do participante
+                    </p>
+            
+             </div>
+
+             <div class="benefit">
+                <div id="benefit-3" class="benefit-img"></div>
+                    <p>
+                    Alguma coisa muito legal que vai fazer a diferença na vida do participante
+                    </p>
+            
+             </div>
+        </div>
+
+        
+    </section>
+
+    <section id="location">
+        <div id="address">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="addressdetails">
+                <p>Rua do evento, 133</p>
+                <p>Bairro Tal</p>
+                <p>Abertura: 14h</p>
+            </div>
+
+        </div>
+
+        <div id="about-location">
+            <h3>Local do Destaque</h3>
+            <p>
+                O evento será realizado em um local prestigiado pelos amantes de designer de interiores, onde teremos vários exemplos de ambientes tanto interno como externos.
+            </p>
+
+        </div>
+    </section>
+
+    <section id="details">
+        <div class="detail" id="detail-1">
+            <img src="./img/hrz-3.jpg" alt="sala decorada em tons claros">
+            <div class="details-description">
+                <h3>
+                    conheça os ambientes que você vai aprender a decorar
+                </h3>
+            </div>
+        </div>
+
+        <div class="detail" id="detail-2">
+            <div class="details-description">
+                <h3>
+                    Detalhes
+                </h3>
+                <ul>
+                    <li>posicionamento</li>
+                    <li>aproveitamento de espaço</li>
+                    <li>combinação de cores</li>
+                    <li>oraganização</li>
+                    <li>E muito mais...</li>
+
+                </ul>
+            </div>
+            <img src="./img/hrz-4.jpg" alt="sala de jantar decorada">
+        </div>
+
+        <div class="detail" id="detail-3">
+            <img src="./img/hrz-5.jpg" alt="sala de estar decoração tons escuros">
+            <div class="details-description">
+                <h3>
+                    Objetos
+                </h3>
+                <ul>
+                    <li>cadeiras</li>
+                    <li>mesas</li>
+                    <li>espelhos</li>
+                    <li>plantas</li>
+                    <li>cortinas</li>
+                    <li>e muito mais...</li>
+                </ul>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section id="cta">
+        <h3>Gostou? Então se inscreva: </h3>
+        <button class="btn">solicitar inscrição</button>
+    </section>
+
+    <footer id="footer">
+        <h3>InDecor</h3>
+        <p>A melhor opção em decoração de interiores</p>
+        <p><span>Entre em contato:</span> oi@indecor.com.br</p>
+        <p><span>ou pelo telefone:</span> (11)5555-5555</p>
+    </footer>
 </body>
 </html>
